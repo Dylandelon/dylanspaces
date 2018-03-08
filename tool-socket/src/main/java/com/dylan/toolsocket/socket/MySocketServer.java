@@ -15,7 +15,7 @@ public class MySocketServer
     FileInputStream fin = null;
     public MySocketServer() {
         try{
-            ss=new ServerSocket(765);
+            ss=new ServerSocket(7080);
             s.setSoTimeout(3000);
         }catch(Exception e){
             System.out.println(e.toString());

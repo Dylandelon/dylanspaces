@@ -20,7 +20,7 @@ class MyThreadServer extends Thread{
         try{
             inStream=new DataInputStream(socket.getInputStream());
             outStream=new DataOutputStream(socket.getOutputStream());
-            fin = new FileInputStream("C:/temp/socket/200212060001_ds.zip");
+            fin = new FileInputStream("D:/temp/tool/tttt.txt");
             //socket.setSoTimeout(3000);
             byte[] b = new byte[200];
             int i;
