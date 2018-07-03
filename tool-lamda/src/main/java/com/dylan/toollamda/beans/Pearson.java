@@ -29,4 +29,12 @@ public class Pearson {
 
     public Pearson() {
     }
+
+    @Override
+    public String toString() {
+        return "Pearson{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
